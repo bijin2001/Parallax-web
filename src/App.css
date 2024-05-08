@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Raleway", sans-serif;
+}
+
+.bn{
+
+    outline: none;
+    border: none;
+    background-color: #272727;
+    color: white;
+    transform-style: preserve-3d;
+    transition: all 0.5s linear;
+    transform-origin: center;
+}
+
+.bn:hover{
+
+    background-color: #fc1c14;
+}
+
+.Cont{
+
+    width: 100%;
+    position: relative;
+}
+
+.txt{
+
+    mix-blend-mode: screen;
+}
+
+.crd{
+     background: linear-gradient(#ffffff,#f4cfce);
+}
+
+.scrollImaIn{
+
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    position: relative;
+
+}
+
